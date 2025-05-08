@@ -9,9 +9,27 @@ let idade = 42
 // Console e Debug
 console.log(nome)
 console.log(idade)
-nome = "kurosaki"
+nome = "kurosaki" 
 idade = "18"
 console.log(nome,  idade)
+
+
+// Tipos de dados
+
+// text  ==  String
+let cidade = "americana"
+
+//numerico == number
+let salario = 1500.35
+
+//boleano == boolean
+let fumante = false
+
+console.log (typeof cidade)
+console.log (typeof salario)
+console.log (typeof fumante)
+
+
 
 
 // Operadores
