@@ -64,6 +64,20 @@ console.log (10>2 && 35<100 && n1>n2 && 100<90 ) // e - todas as verificações 
 console.log (10<2 || 100==150 || 57==57  ) //ou - apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro, o resultado só será falso se todas as verificações forem falsas
 
 
+//desafio
+let preco = 100
+let precoAcrescimo = 0
+let precoDesconto = 0
+// faca um que acrescente 17% ao preço e improma
+precoAcrescimo = preco + preco * 0.17
+console.log ("preco com acrescimo: " + precoAcrescimo) 
+
+// faca outro que desconte 7% do preço e imprima
+precoDesconto = preco - preco * 0.07
+console.log ("preco com desconto: "  + precoDesconto)
+
+
+   
 
 
 
