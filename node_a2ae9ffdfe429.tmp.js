@@ -129,11 +129,10 @@ console.log("senac americana")
 }
 
 for(let i=1; i<=50; i=i+1){
-    console.log (i)
+    console.log(i)
 }
 
 // Arrays 
-let aluno
 
 // Funções básicas
 // Escopo
