@@ -70,11 +70,11 @@ let precoAcrescimo = 0
 let precoDesconto = 0
 // faca um que acrescente 17% ao preço e improma
 precoAcrescimo = preco + preco * 0.17
-console.log ("preco com acrescimo: " + precoAcrescimo) 
+console.log ("preco com acrescimo: " + precoAcrescimo.toFixed(2)) 
 
 // faca outro que desconte 7% do preço e imprima
 precoDesconto = preco - preco * 0.07
-console.log ("preco com desconto: "  + precoDesconto)
+console.log ("preco com desconto: "  + precoDesconto.toFixed(2))
 
 
    
