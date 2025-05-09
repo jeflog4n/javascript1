@@ -124,7 +124,7 @@ while(controle <= 100){
 }
 
 //mostra 10 vezes "senac americana"
-for(let i=1; i<=10; i=i){
+for(let i=1; i<=10; i=i+1){
 console.log("senac americana")
 }
 
@@ -133,9 +133,32 @@ for(let i=1; i<=50; i=i+1){
 }
 
 // Arrays 
-let aluno
+let alunos = ["joão","paulo","renata","cris","x" ]
+console.log(alunos)
+console.log(alunos[2])
+alunos[4] = "kleber"
+console.log(alunos)
+alunos.push("karem")
+console.log(alunos)
+
+let frutas = []
+console.log(frutas)
+frutas.push("🍇")
+frutas.push("🥝")
+frutas.push("🍈")
+frutas.push("🍉")
+frutas.push("🍊")
+frutas.push("🥥")
+frutas.push("🍌")
+frutas.push("🍍")
+frutas.push("🥭")
+console.log(frutas)
+
+
 
 // Funções básicas
+
+
 // Escopo
 
 
